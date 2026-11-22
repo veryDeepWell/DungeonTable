@@ -1,0 +1,8 @@
+{
+  "name": "dungeon-table-registry",
+  "main": "registry.mjs",
+  "compatibility_date": "2026-11-22",
+  "vars": { "CLIENT_ORIGIN": "https://verydeepwell.github.io" },
+  "durable_objects": { "bindings": [{ "name": "REGISTRY", "class_name": "DungeonRegistry" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["DungeonRegistry"] }]
+}

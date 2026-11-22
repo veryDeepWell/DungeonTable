@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DungeonTable</title><link rel="stylesheet" href="./src/style.css"></head>
+<body>
+<header><strong>◈ DungeonTable</strong><span id="campaign-name"></span><span id="connection" role="status">Загрузка…</span><button id="connection-button">Комната</button><button id="save-menu">Файлы</button><button id="features">Что работает</button></header>
+<div class="shell"><nav id="navigation" aria-label="Разделы"></nav><main><div id="toolbar"></div><div id="initiative"></div><div id="viewport" tabindex="0" aria-label="Общий стол"><div id="world"></div><output id="measure"></output></div><div id="dicebar"><input id="dice-formula" value="1d20" aria-label="Формула броска" maxlength="80"><button id="roll">Бросить</button><span id="dice-presets"></span><output id="last-roll" aria-live="polite"></output></div></main><aside><div id="panel"></div></aside></div>
+<dialog id="dialog"><form id="dialog-form"><div id="dialog-content"></div><footer><button type="button" id="dialog-cancel">Закрыть</button><button type="submit" id="dialog-submit">Сохранить</button></footer></form></dialog><div id="toast" role="status" hidden></div>
+<script src="./config.js"></script><script type="module" src="./src/app.mjs"></script>
+</body></html>

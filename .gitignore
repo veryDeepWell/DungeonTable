@@ -1,0 +1,6 @@
+data/
+node_modules/
+*.sqlite*
+*.local.json
+__pycache__/
+dist/

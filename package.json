@@ -1,0 +1,8 @@
+{
+  "name": "dungeon-table",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.13" },
+  "scripts": { "start": "node server/main.mjs", "test": "node --test tests/*.test.mjs", "check": "node --check src/app.mjs && node --check src/core.mjs && node --check server/main.mjs" }
+}
